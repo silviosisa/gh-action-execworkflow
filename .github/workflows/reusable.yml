@@ -5,7 +5,7 @@ on:
       artifact-name:
         description: 'The name of the artifact to download'
         required: true
-        default: 'dist-files'
+        default: 'dist'
         type: string
 jobs:
   deploy:
